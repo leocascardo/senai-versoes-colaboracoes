@@ -7,12 +7,15 @@ int main()
   int idade;
   double total_dias;
   double horas;
+  double morte;
    cout << "entre com sua idade : ";
    cin>>idade;
    total_dias = idade * 365;
    horas = total_dias * 24;
+   morte = (75*365) - total_dias;
    
-    cout<<"Olá, " << "você já viveu : "<< total_dias <<" dias de vida" << " e " << horas << " vividas";
+    cout<<"Olá, " << "você já viveu : "<< total_dias <<" dias de vida" << " e " << horas << " vividas" << "\n";
+    cout<<"Por causas naturais você morrerá daqui " <<  morte <<" dias ";
 
     return 0;
 }
