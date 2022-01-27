@@ -1,9 +1,16 @@
 #include <iostream>
+
 using namespace std;
+
 int main()
 {
-int idade;
-cout << "Entre sua idade: ";
-cin >> idade
-cout << "Voce tem " << idade << "anos." << endl;
+  int idade;
+  double total_dias;
+   cout << "entre com sua idade : ";
+   cin>>idade;
+   total_dias = idade * 365;
+   
+    cout<<"Olá, " << "você já viveu : "<< total_dias <<" dias de vida";
+
+    return 0;
 }
